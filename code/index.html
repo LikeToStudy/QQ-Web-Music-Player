@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>QQ音乐播放器</title>
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../js/lyric.js"></script>
+    <script src="../js/player.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <div id="head">
+        <a href="javascript:;"></a>
+        <ul>
+            <li>登录</li>
+            <li>设置</li>
+        </ul>
+    </div>
+    <div id="content">
+        <div class="content-layout">
+            <div class="content-layout-left">
+                <div class="content-layout-left-head">
+                    <a href="javascript:;"><i></i>收藏</a>
+                    <a href="javascript:;"><i></i>添加到</a>
+                    <a href="javascript:;"><i></i>下载</a>
+                    <a href="javascript:;"><i></i>删除</a>
+                    <a href="javascript:;"><i></i>清空列表</a>
+                </div>
+                <div class="content-layout-left-footer" data-mcs-theme="dark">
+                    <ul class="first">
+                        <li><input type="checkbox"></li>
+                        <li>歌曲</li>
+                        <li>歌手</li>
+                        <li>时长</li>
+                    </ul>
+                    <ul class="second"></ul>
+                </div>
+            </div>
+            <div class="content-layout-right">
+                <div class="content-layout-right-head">
+                    <a href="javascript:;">
+                        <img src="../images/song1.jpg" alt="">
+                    </a>
+                    <div class="first">歌曲名：<span class="songName"></span></div>
+                    <div>歌手名：<span class="singerName"></span></div>
+                    <div>专辑名：<span class="album"></span></div>
+                </div>
+                <div class="content-layout-right-footer">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-layout">
+            <div class="footer-layout-buttons">
+                <a href="javascript:;"></a>
+                <a href="javascript:;" class="play"></a>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="footer-layout-progress">
+                <div class="footer-layout-progress-box">
+                    <div class="footer-layout-progress-box-head">
+                        <span class="musicNameFooter"></span>
+                        <span class="musicTimeFooter"></span>
+                    </div>
+                    <div class="footer-layout-progress-content">
+                        <div class="footer-layout-progress-content-progress">
+                            <div class="footer-layout-progress-content-tip"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-layout-other">
+                <a href="javascript:;" class="mode1"></a>
+                <a href="javascript:;" class="fav1"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="footer-layout-voice">
+                <a href="javascript:;" class="open"></a>
+                <div class="footer-layout-voice-content">
+                    <div class="footer-layout-voice-content-progress">
+                        <div class="footer-layout-voice-content-tip"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mask-bg"></div>
+    <div id="mask"></div>
+    <audio src=""></audio>
+</body>
+</html>

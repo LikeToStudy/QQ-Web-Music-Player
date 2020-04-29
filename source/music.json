@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Safe and Sound",
+    "singer" : "Taylor Swift",
+    "album" : "Safe and Sound",
+    "time" : "04:02",
+    "link_url" : "../source/Taylor Swift - Safe and Sound.mp3",
+    "cover" : "../source/Taylor Swift - Safe and Sound.jpg",
+    "link_lrc" : "../source/Taylor Swift - Safe and Sound.txt"
+  },
+  {
+    "name": "起风了",
+    "singer" : "买辣椒也用券",
+    "album" : "起风了",
+    "time" : "05:23",
+    "link_url" : "../source/买辣椒也用券-起风了.mp3",
+    "cover" : "../source/买辣椒也用券-起风了.jpg",
+    "link_lrc" : "../source/买辣椒也用券-起风了.txt"
+  },
+  {
+    "name": "童话镇",
+    "singer" : "陈一发儿",
+    "album" : "童话镇",
+    "time" : "04:17",
+    "link_url" : "../source/童话镇 - 陈一发儿.mp3",
+    "cover" : "../source/童话镇 - 陈一发儿.jpg",
+    "link_lrc" : "../source/童话镇 - 陈一发儿.txt"
+  },
+  {
+    "name": "出山",
+    "singer" : "花粥",
+    "album" : "出山",
+    "time" : "03:20",
+    "link_url" : "../source/花粥 - 出山.mp3",
+    "cover" : "../source/花粥 - 出山.jpg",
+    "link_lrc" : "../source/花粥 - 出山.txt"
+  }
+]
